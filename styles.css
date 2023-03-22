@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px 0px;
+    padding: 0px 0 px;
+}
+#content{
+    width: auto;
+    height:auto;
+    background-color: rgba(120, 205, 205, 0.29);  
+}
+header{
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+h1,h2,h3
+{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+h1{
+    text-shadow: 2px 2px black;
+    font-size: 24px;
+    color:rgba(54, 54, 56, 0.383);
+}
+h3{
+    text-shadow: 2px 2px rgb(14, 60, 211);
+    font-size: 30px;
+    color:rgba(34, 34, 192, 0.383);
+    margin: 40px 35px;
+}
+.imageset{
+    width:auto;
+    height:600px;
+    transform: all 1s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.listseries{
+margin-top: 20px;
+margin-bottom: 50px;
+}
+#outlander, #lucifer, #blacklist, #blindspot, #newAmsterdam{
+    padding-top:80px;
+}
+iframe{
+    width:600px;
+    height:420px;
+} 
+.lista{
+    display: flex;
+    justify-content: center;
+    column-gap: 10%;
+    padding-top: 80px; 
+}
+.listactors{
+    align-self: center;
+}
+.description{
+    width: 600px;
+    align-self: center;
+    text-align: center;
+}
+footer{
+    background-color: deepskyblue;
+    padding: 10px;
+    color: blue;
+    text-shadow: 2px 2px rgba(182, 96, 31, 0.455);
+    text-align: center;
+}
+.list-group{
+ z-index: -1;
+}
